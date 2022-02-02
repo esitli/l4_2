@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,900;1,700&family=Source+Code+Pro:wght@400;900&family=Yanone+Kaffeesatz:wght@300;500;700&display=swap');
+
+@font-face {
+	font-family: "Lumphong";
+	src: url("../fonts/Lumphong.woff2") format("woff2"), url("../fonts/Lumphong.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lumphong";
+	src: url("../fonts/Lumphong_1.woff2") format("woff2"), url("../fonts/Lumphong_1.woff") format("woff");
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: "November";
+	src: url("../fonts/NovemberStencilPro-Light.woff2") format("woff2"), url("../fonts/NovemberStencilPro-Light.woff") format("woff");
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+}
+@font-face {
+	font-family: "HYKHead";
+	src: url("../fonts/HYKHeadLineStd-Medium-Alphabetic.woff2") format('woff2'), url("../fonts/HYKHeadLineStd-Medium-Alphabetic.woff") format('woff');
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+.title{
+		font-family: "El Messiri", sans-serif;
+		font-size: 25px;
+		font-style: normal;
+		color: grey;
+		text-align: center;
+		text-decoration: underline;
+		text-shadow: 1px 1px 10px slategray;
+		letter-spacing: 2px;
+	}
+	.par1,
+	.par2,
+	.par8,
+	.par15,
+	.par20{
+		font-family: "Playfair Display", serif;
+		font-weight: 400;
+		color: darkgoldenrod;
+		text-align: justify;
+		font-size: 16px;
+	}
+	.par3,
+	.par4,
+	.par10,
+	.par11,
+	.par12{
+		font-family: "Source Code Pro", monospace;
+		font-weight: 400;
+		color: darkcyan;
+		text-align: right;
+		font-size: 10;
+		line-height: 2;
+	}
+	.par5,
+	.par6,
+	.par9,
+	.par13,
+	.par16{
+		font-family: "Yanone Kaffeesatz", sans-serif;
+		font-weight: 300;
+		font-style: oblique;
+	}
+	.par7,
+	.par14,
+	.par17{
+		font-family: "Lumphong", serif;
+		font-weight: 400;
+		font-style: italic;
+		color:darkslategrey
+	
+	}
+	.par18{
+		font-family: "November", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		color: darkkhaki;
+		font-size: 22px;
+	}
+
+	.par19{
+		font-family: "HYKHead", sans-serif;
+		font-weight: 500;
+		line-height: 1.5;
+	}
+	p span{
+		font-family: "Playfair Display";
+		font-weight: 700;
+		color: blueviolet;
+		
+	}
+.text{
+	font-family: "El Messiri";
+	font-weight: 700;
+	color: crimson;
+	font-size: 45;
+	font-style: italic;
+	text-decoration-line: line-through;
+}
+.text1{
+	font-family: "Yanone Kaffeesatz";
+	font-weight: 500;
+	color: cyan;
+	word-spacing: 2px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 8px #000;
+}
+.text3{
+	font-family: "Lumphong";
+	font-style: italic;
+	font-weight: 400;
+	color:darkorange;
+}
